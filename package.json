@@ -10,7 +10,7 @@
     "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install --only=dev --dev",
     "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;",
     "ng": "ng",
-    "start": "node app.js",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -60,7 +60,7 @@
     "typescript": "2.6.1"
   },
   "engines": {
-    "node": ">= 8.9.0",
-    "npm": ">= 5.5.1"
-     }
+    "node": "6.11.1",
+    "npm": "3.10.9"
+  }
 }
