@@ -8,10 +8,13 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install --only=dev --dev",
-    "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;",
+   // "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install --only=dev --dev",
+   // "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;",
+   "heroku-prebuild": "npm install -g http-server",
+   "heroku-postbuild": "ng build --prod",
+   "start": "http-server dist/",
     "ng": "ng",
-    "start": "ng serve",
+   // "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -39,7 +42,12 @@
     "rxjs": "5.5.2",
     "simple-line-icons": "^2.4.1",
     "ts-helpers": "1.1.2",
-    "zone.js": "0.8.18"
+    "zone.js": "0.8.18",
+    "angular-cli": "1.0.0-beta.20-4",
+    "@angular/compiler-cli": "~2.1.0",
+    "@types/jasmine": "~2.2.30",
+    "@types/node": "~6.0.42",
+    "typescript": "~2.0.3"
   },
   "devDependencies": {
     "@angular/cli": "1.5.0",
