@@ -1,5 +1,5 @@
 {
-  "name": "e-Pesa Money remittance to Africa",
+  "name": "@coreui/angular",
   "version": "1.0.6",
   "description": "Faster, Secure and cheaper way to send money to Africa",
   "author": "Nestel Group",
@@ -9,8 +9,8 @@
   "scripts": {
     "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install --only=dev --dev",
     "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;",
-    "ng": "ng",
-    "start": "node server.js",
+     "ng": "ng",
+     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
