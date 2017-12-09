@@ -14,7 +14,7 @@ export const navigation = [
   },
 
   {
-    name: 'Widgets',
+    name: 'Transactions',
     url: '/widgets',
     icon: 'icon-calculator'   
   },
@@ -29,7 +29,7 @@ export const navigation = [
   },
 
   {
-    name: 'Charts',
+    name: 'Settings',
     url: '/charts',
     icon: 'icon-pie-chart'
   },
@@ -43,7 +43,7 @@ export const navigation = [
   },
 
   {
-    name: 'Profile',
+    name: 'Rewards',
     url: '/Profile',
     icon: 'icon-star'
   },
