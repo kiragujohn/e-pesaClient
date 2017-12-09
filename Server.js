@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 // Run the app by serving the static files
 // in the dist directory
-app.use(express.static(__dirname + './dist'));
+app.use(express.static(__dirname + '/dist'));
 // Start the app by listening on the default
 // Heroku port
-http.listen(process.env.PORT || 5000, function(){
+http.listen(process.env.port || 5000, function(){
     console.log('listening on', http.address().port);
   });
