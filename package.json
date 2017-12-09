@@ -3,7 +3,7 @@
   "version": "1.0.6",
   "description": "Faster, Secure and cheaper way to send money to Africa",
   "author": "Nestel Group",
-  "homepage": "https://epesaclient.herokuapp.com/",
+  "homepage": "https://epesaclient.herokuapp.com",
   "copyright": "Copyright 2017 e-Pesa",
   "license": "MIT",
  "scripts": {
@@ -46,7 +46,9 @@
     "ts-node": "3.3.0",
     "tslint": "5.8.0",	
     "@angular/animations": "^4.0.0",  
-    "@angular/language-service": "^4.0.0" 
+    "@angular/language-service": "^4.0.0",
+    "npm": "3.10.9"
+
   },
   "devDependencies": {
     "@angular/cli": "1.5.0",

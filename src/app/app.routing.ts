@@ -19,7 +19,7 @@ export const routes: Routes = [
     path: '',
     component: FullLayoutComponent,
     data: {
-      title: 'e-Pesa'
+      title: 'Dashboard'
     },
     children: [
       {

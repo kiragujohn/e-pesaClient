@@ -1,6 +1,6 @@
 export const navigation = [
   {
-    name: 'e-Pesa',
+    name: 'Dashboard',
     url: '/dashboard',
     icon: 'icon-speedometer'    
   },
